@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+#brand{
+    height:80px;
+    width:auto;
+}
+
+.navbar-nav li a{
+    font-size:1.8rem;
+    margin:0rem 1rem;
+    text-decoration: none;
+    color:black;
+    
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#nav{
+    background:rgba(241, 196, 196, 0.9);
+}
+
+.navbar-nav li a:hover{
+    
+    font-weight: bold;
+background:rgba(30, 30, 30, 0.733);
+padding:.5rem .5rem;
+border-radius:5rem;
+color:red;
+transition:all .5s;
+}
+#sec_a{
+    height:80vh;
+    width:100%;
+    
+}
+#novel{
+    font-size:1.5rem;
+}
+#prevent h1{
+       font-weight:bold;
+       color:rgb(187, 109, 109);
+}
+#prevent p{
+    font-size:1.5rem;
+}
+#prevent .card{
+    text-align: center;
+    background:rgb(241, 240, 240);
+    padding:1rem 0rem;
+}
+#prevent img{
+    width:5rem;
+    height:5rem;
+margin:0rem auto;    
+}
+
+.a{
+    
+position:relative;
+overflow: hidden;
+}
+.a #button{
+position:absolute;
+right: -3rem;
+top:1rem;
+    transition:all 0.5s;
+}
+.a:hover #button{
+    right:1rem;
+    transition:all 0.5s;
+}
+label{
+    font-size:1.5rem;
+}
+ #sent{
+     font-size:2rem;
+ }
+
+@media(max-width:400px){
+    .a img{
+        height:15rem;
+    }
+    html{
+        font-size:55%;
+    }
+}
+
+@media(orientation:landscape){
+#sec_a{
+    height:auto;
+}
+}
